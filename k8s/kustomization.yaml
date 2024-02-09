@@ -2,10 +2,10 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - deployment.yaml
-  - service.yaml
+- deployment.yaml
+- service.yaml
 
 images:
 - name: goserver
   newName: salesof7/gitopsfc
-  newTag: newtag
+  newTag: 8f40ac363b67c8f3a7d5776ea19164d8478aafbb
