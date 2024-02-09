@@ -8,4 +8,4 @@ resources:
 images:
 - name: goserver
   newName: salesof7/gitopsfc
-  newTag: 8f40ac363b67c8f3a7d5776ea19164d8478aafbb
+  newTag: 519015f09a9cd9c61c325ff560292aa5a78626f8
